@@ -9,7 +9,7 @@ public class ProjectdemoController {
 	
 	@RequestMapping("/home")
 		public String indexbyjsp() {
-			return "pages/index";
+			return "index";
 		}
 		/*public String indexbyhtml() {
 			return "redirect:/index.html";
